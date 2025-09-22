@@ -18,14 +18,18 @@ public class LemonadeStand{
 	//constructors
 	public static void main(string[] args){
 	LemonadeStand l1 = new lemonadeStand();
+	
 		
 	
 	
 	//methods
-	public Start(){
+	
+	public Start(int inventory){
 		temperature = Math.random()*65 + 25;
 		if temperature < 65{
 			weather = "Cold";
-		}else if temperature < 
+		}else if 65 < temperature < 85{
+			weather = "Cloudy"
+		}else weather = "Sunny"
 	}
 }

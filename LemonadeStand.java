@@ -16,11 +16,16 @@ public class LemonadeStand{
 	//timothy
 	
 	//constructors
-	public Start()
+	public static void main(string[] args){
+	LemonadeStand l1 = new lemonadeStand();
 		
 	
 	
 	//methods
-	
-	
+	public Start(){
+		temperature = Math.random()*65 + 25;
+		if temperature < 65{
+			weather = "Cold";
+		}else if temperature < 
+	}
 }

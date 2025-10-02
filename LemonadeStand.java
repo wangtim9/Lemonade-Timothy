@@ -3,8 +3,6 @@ public class LemonadeStand{
 	//instance variables
 	int days;
 	double money;
-	int temperature;
-	String weather;
 	int numLemons;
 	int numIceCubes;
 	int numPaperCups

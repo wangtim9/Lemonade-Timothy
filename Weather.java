@@ -1,4 +1,4 @@
-public class Weather(){
+public class Weather {
 	int temperature;
 	String weather;
 	temperature = Math.random()*65 + 25;
